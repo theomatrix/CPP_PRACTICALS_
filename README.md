@@ -68,3 +68,5 @@
 
 - PRACTICAL 12 :
     -  Copy the contents of one text file to another file, after removing all whitespaces.
+
+** I'VE ADDED COMMENTS IN B/W CODES FOR THE PRACTICALS HAVING MORE THAN 1 TASKS TO PERFORM 
