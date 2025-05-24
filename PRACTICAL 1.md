@@ -1,25 +1,27 @@
 # PRACTICAL 1 
 ```CPP
-#include <iostream> 
-#include <cmath> 
-using namespace std; 
+#include <iostream>
+#include <cmath>
+using namespace std;
 
-double seriesSum(int n) { 
-   double sum=0; 
-   for (int i =1; i <= n; i++) {  
-      double term =1.0/ pow(i, i); 
-      if ( i% 2==0) {
-         sum -= term; 
-      } else { 
-         sum += term;
-      }
-   } 
-   return sum; 
-} 
-int main() {  
-   int n; 
-   cout << "Enter the number of terms: "; 
-   cin>>n; 
-   cout <<"Sum of series: " << seriesSum(n)<< endl;  
-   return 0; 
+double seriesSum(int n) {
+    double sum = 1.0; 
+
+    if (n >= 2) {
+        sum -= 1.0 / pow(2, 2); // subtract second term
+    }
+
+    for (int i = 3; i <= n; i++) {
+        sum += 1.0 / pow(2, i); 
+    }
+
+    return sum;
+}
+
+int main() {
+    int n;
+    cout << "Enter the number of terms: ";
+    cin >> n;
+    cout << "Sum of series: " << seriesSum(n) << endl;
+    return 0;
 }
