@@ -35,8 +35,9 @@
           - without recursion.
      
 - PRACTICAL 7 :
-    - Write a program to calculate GCD of two numbers (i) with recursion (ii) without
- recursion.
+    - Write a program to calculate GCD of two numbers
+        - with recursion
+        -  without recursion.
 
 - PRACTICAL 8 :
     -  Create a Matrix class. Write a menu-driven program to perform following Matrix
@@ -69,4 +70,4 @@
 - PRACTICAL 12 :
     -  Copy the contents of one text file to another file, after removing all whitespaces.
 
-** I'VE ADDED COMMENTS IN B/W CODES FOR THE PRACTICALS HAVING MORE THAN 1 TASKS TO PERFORM 
+** I'VE ADDED COMMENTS IN B/W CODES FOR THE PRACTICALS HAVING MORE THAN 1 TASKS TO PERFORM AND FOR CLARITY    ~ OM 
